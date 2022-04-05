@@ -1,3 +1,4 @@
+/* COMMON */
 body{
   color: #333;
   font-weight: 400;
@@ -10,7 +11,18 @@ body{
   width: 95px;
   height: 42px;
   font-size: 20px;
+  transition:all .3s
 }
+.btn:hover{
+  color: royalblue
+}
+input{
+  height: 26px;
+  font-size: 20px;
+  width: 350px;
+  margin: 10px 5px;
+}
+
 
 
 .clock{
@@ -29,13 +41,18 @@ body{
 }
 
 .box{
-  
+  position: relative;
+  background-color: orange;
+  width: 700px;
+  margin: 0 auto;
 }
 
 #login-form {
+  
   background-color: #333;
-  margin: 0 auto;
+  padding: 0 auto;
   width: 100%;
+  
 }
 #login-form {
 
