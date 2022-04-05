@@ -11,7 +11,10 @@ body{
   width: 95px;
   height: 42px;
   font-size: 20px;
-  transition:all .3s
+  transition:all .3s;
+  position:absolute;
+  right:4px;
+  top: 4px;
 }
 .btn:hover{
   color: royalblue
@@ -19,8 +22,12 @@ body{
 input{
   height: 26px;
   font-size: 20px;
-  width: 350px;
-  margin: 10px 5px;
+  width: 500px;
+  margin: 10px ;
+  position:absolute;
+}
+span{
+  font-size: 25px;
 }
 
 
@@ -39,31 +46,41 @@ input{
   top: 20%;
   font-size: 200px;
 }
-
 .box{
   position: relative;
-  background-color: orange;
-  width: 700px;
+
+  width: 600px;
   margin: 0 auto;
 }
-
 #login-form {
-  
-  background-color: #333;
-  padding: 0 auto;
+  position: relative;
+  height: 50px;
   width: 100%;
-  
+  padding: 0 auto;
+  justify-content: center;
 }
-#login-form {
-
+#login-form input {
+  width: 475px;
 }
-
-.hidden{
+.hidden {
   display: none;
 }
-
+#greeting {
+  font-size: 30px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#todo-form{
+  margin-top: 30px;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
 .inner {
-
   position: absolute;
   height: 1200px;
   width: 1500px;
@@ -78,4 +95,9 @@ input{
 .inner img{
   width: 100%;
   opacity: 90%;
+}
+
+
+#quote{
+  font-size: 15px;
 }
